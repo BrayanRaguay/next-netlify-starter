@@ -5,9 +5,10 @@ describe('sample test', () => {
 
   it('displays the resources text', () => {
     cy.get('h1')
-    .contains('Welcome to my app!');
+    .contains('BIENVENIDOS A NIMALAYA!');
+    .contains('Quieren un helao´');
   })
-  it('renders the Netlify logo image', () => {
+  it('Quieren saber de que trata esta pagina', () => {
     cy.get('img')
     .should('be.visible')
     .and(($img) => {
